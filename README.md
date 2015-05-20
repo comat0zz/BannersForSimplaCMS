@@ -22,6 +22,10 @@
 'BannerAdmin'		  => 'settings',
 ```
 
+В ./simpla/design/html/settings.tpl (и в остальные табы, с которыми висит settings) в табы добавить:
+```php
+{if in_array('settings', $manager->permissions)}<li><a href="index.php?module=BannersAdmin">Баннеры</a></li>{/if}
+```
 
 В ./view/View.php подключаем плагин:
 ```php
