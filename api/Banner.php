@@ -77,7 +77,7 @@
 		{
 			$query = $this->db->placehold('DELETE FROM __banners_categories WHERE id=? LIMIT 1', (int)$id);
 			$this->db->query($query);
-            $this->deleteElementsAll($id);
+			$this->deleteElementsAll($id);
 		}
 
 		/**
