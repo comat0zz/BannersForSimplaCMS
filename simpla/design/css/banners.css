@@ -1,0 +1,64 @@
+#elements_block {
+	background-color: #f0f0f0;
+	border: 1px dotted #d0d0d0;
+	clear: both;
+	overflow: hidden;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	width: 940px;
+}
+#elements_block ul  {
+	overflow: hidden;
+	padding-bottom: 2px;
+	padding-left:20px;
+	padding-top: 2px;
+	clear: left;
+}
+#elements_block ul li {
+	float: left;
+	display: block;
+	height: 31px;
+	overflow: hidden;
+}
+#elements_block ul li input {
+	height: 20px;
+	font-size: 14px;
+	color: #636363;
+	margin-top: 0;
+	padding-top: 2px;
+	margin-left: 2px;
+}
+#elements_block li.element_move { width: 20px; height:16px; padding-top: 5px;}
+#elements_block li.element_name, #elements_block li.element_url{ width: 270px;	padding-left: 5px; }
+#elements_block li.element_name input, #elements_block li.element_url input {
+	font-size: 16px;
+	color: #000;
+	width: 280px;
+	float: left;
+	margin-right: 2px;
+}
+#elements_block li.element_name a.del_element {
+	display: block;
+	padding-top: 6px;
+}
+
+
+#elements_block li.element_image { width: 180px;}
+#elements_block li.element_image input{ width: 170px; font-size: 9px; margin-top: 2px;}
+#elements_block li.element_image .add_image img{  margin-top: 4px;}
+
+
+#elements_block #add_element {
+	margin-left: 30px;
+	clear: left;
+	margin-top: 5px;
+	display: block;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	background-image: url(../images/plus-circle.png);
+}
+#elements_block .element_move div{
+	width:20px;
+	height: 16px;
+}
