@@ -18,7 +18,7 @@
 
 В ./api/Simpla.php в массив $Classes добавить элемент:
 ```php
-'banner' 	=> 'Banners', 
+'banner' 	=> 'Banner', 
 ```
 
 В ./simpla/IndexAdmin.php в массив $modules_permissions добавить элемент:
